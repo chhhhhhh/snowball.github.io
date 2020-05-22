@@ -1,3 +1,25 @@
 body {background-color: black;}
 header {color: white;}
 center {color: white;}
+ul {
+    border: 2px solid white;
+}
+
+li {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+div {
+    column-count: 2;
+    column-rule-style: dotted;
+    column-width: auto;
+  
+
+
+ p {
+     text-align: center;
+ }
